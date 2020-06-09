@@ -1,5 +1,6 @@
 {
   "name": "ameelioui",
+  "productName": "AmeelioUI",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -40,7 +41,7 @@
     ]
   },
   "devDependencies": {
-    "react-docgen-typescript": "^1.16.5",
+    "react-docgen-typescript": "^1.16.6",
     "react-styleguidist": "^11.0.8"
   }
 }

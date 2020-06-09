@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import BootstrapButton, { ButtonProps as BootstrapButtonProps } from 'react-bootstrap/Button';
 import { ElementType } from 'react';
 
+import './Button.scss';
+
 export interface ButtonProps extends BootstrapButtonProps {
     /**
      * Manually set the visual state of the button to :active
@@ -69,12 +71,18 @@ export interface ButtonProps extends BootstrapButtonProps {
      * @default 'btn'
      */
     bsPrefix?: string;
+
+    /**
+     * One or more class names to be added to the root element of this component
+     */
+    className?: string;
 }
 
 export default class Button extends Component<ButtonProps> {
     public render() {
+        const className = this.props.className;
         return (
-            <BootstrapButton {...this.props} />
+            <BootstrapButton {...this.props} className={className}/>
         );
     }
 }

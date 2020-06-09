@@ -20,8 +20,8 @@
     "typescript": "^3.7.5"
   },
   "scripts": {
-    "start": "npx styleguidist server",
-    "build": "npx styleguidist build",
+    "start": "npx styleguidist server --config config/styleguide/config.js",
+    "build": "npx styleguidist build --config config/styleguide/config.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

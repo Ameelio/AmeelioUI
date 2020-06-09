@@ -1,6 +1,7 @@
 # AmeelioUI
 
 [![Build and Deploy](https://github.com/AmeelioDev/AmeelioUI/workflows/Build%20and%20Deploy/badge.svg)](https://github.com/AmeelioDev/AmeelioUI/actions?query=workflow%3A%22Build+and+Deploy%22)
+[![Tests](https://github.com/AmeelioDev/AmeelioUI/workflows/Tests/badge.svg)](https://github.com/AmeelioDev/AmeelioUI/actions?query=workflow%3ATests+branch%3A+master)
 
 The UI component framework for Ameelio: a non-profit technology company committed to transforming prison communications.
 

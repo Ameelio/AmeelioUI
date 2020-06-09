@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { shallow, ShallowWrapper } from 'enzyme';
-import Button, { ButtonProps } from './Button';
+import Button, { ButtonProps, ButtonSize, ButtonType, ButtonVariant } from './Button';
 
 const sampleText = 'Click Me';
 const sampleUrl = 'ameelio.org';
@@ -60,7 +60,7 @@ describe('<Button />', () => {
 
     describe('with small size', () => {
         beforeEach(() => {
-            component = shallow(<Button size='sm'>{sampleText}</Button>);
+            component = shallow(<Button size={ButtonSize.SMALL}>{sampleText}</Button>);
         });
 
         it('matches its snapshot', () => {
@@ -70,7 +70,7 @@ describe('<Button />', () => {
 
     describe('with large size', () => {
         beforeEach(() => {
-            component = shallow(<Button size='lg'>{sampleText}</Button>);
+            component = shallow(<Button size={ButtonSize.LARGE}>{sampleText}</Button>);
         });
 
         it('matches its snapshot', () => {
@@ -80,7 +80,7 @@ describe('<Button />', () => {
 
     describe('with submit type', () => {
         beforeEach(() => {
-            component = shallow(<Button type='submit'>{sampleText}</Button>);
+            component = shallow(<Button type={ButtonType.SUBMIT}>{sampleText}</Button>);
         });
 
         it('matches its snapshot', () => {
@@ -90,7 +90,7 @@ describe('<Button />', () => {
 
     describe('with reset type', () => {
         beforeEach(() => {
-            component = shallow(<Button type='reset'>{sampleText}</Button>);
+            component = shallow(<Button type={ButtonType.RESET}>{sampleText}</Button>);
         });
 
         it('matches its snapshot', () => {
@@ -100,7 +100,7 @@ describe('<Button />', () => {
 
     describe('with submit type', () => {
         beforeEach(() => {
-            component = shallow(<Button type='submit'>{sampleText}</Button>);
+            component = shallow(<Button type={ButtonType.SUBMIT}>{sampleText}</Button>);
         });
 
         it('matches its snapshot', () => {
@@ -110,7 +110,7 @@ describe('<Button />', () => {
 
     describe('with secondary variant', () => {
         beforeEach(() => {
-            component = shallow(<Button variant='secondary'>{sampleText}</Button>);
+            component = shallow(<Button variant={ButtonVariant.SECONDARY}>{sampleText}</Button>);
         });
 
         it('matches its snapshot', () => {
@@ -120,7 +120,7 @@ describe('<Button />', () => {
 
     describe('with outline warning variant', () => {
         beforeEach(() => {
-            component = shallow(<Button variant='outline-warning'>{sampleText}</Button>);
+            component = shallow(<Button variant={ButtonVariant.OUTLINE_WARNING}>{sampleText}</Button>);
         });
 
         it('matches its snapshot', () => {

@@ -9,8 +9,10 @@ Basic button:
 Secondary button:
 
 ```js
+const { ButtonVariant } = require('.');
+
 <Button
-  variant='secondary'
+  variant={ButtonVariant.SECONDARY}
 >Push Me</Button>
 ```
 
@@ -33,15 +35,19 @@ Block button:
 Small button:
 
 ```js
+const { ButtonSize } = require('.');
+
 <Button
-  size='sm'
+  size={ButtonSize.SMALL}
 >Push Me</Button>
 ```
 
 Large button:
 
 ```js
+const { ButtonSize } = require('.');
+
 <Button
-  size='lg'
+  size={ButtonSize.LARGE}
 >Push Me</Button>
 ```

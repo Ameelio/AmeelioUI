@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import BootstrapButton, { ButtonProps as BootstrapButtonProps } from 'react-bootstrap/Button';
 import { ElementType } from 'react';
+import { ButtonSize, ButtonType, ButtonVariant } from './types';
 
 import './Button.scss';
+
+export { ButtonSize, ButtonType, ButtonVariant }
 
 export interface ButtonProps extends BootstrapButtonProps {
     /**
@@ -35,36 +38,19 @@ export interface ButtonProps extends BootstrapButtonProps {
     /**
      * Specifies large or small button
      */
-    size?: 'sm' | 'lg';
+    size?: ButtonSize;
 
     /**
      * Defines HTML button type attribute
-     * @default 'button''
+     * @default ButtonType.BUTTON
      */
-    type?: 'button' | 'reset' | 'submit';
+    type?: ButtonType;
 
     /**
      * One or more button variant combinations including outline variants
-     * @default 'primary'
+     * @default ButtonVariant.PRIMARY
      */
-    variant?:
-        | 'primary'
-        | 'secondary'
-        | 'success'
-        | 'danger'
-        | 'warning'
-        | 'info'
-        | 'dark'
-        | 'light'
-        | 'link'
-        | 'outline-primary'
-        | 'outline-secondary'
-        | 'outline-success'
-        | 'outline-danger'
-        | 'outline-warning'
-        | 'outline-info'
-        | 'outline-dark'
-        | 'outline-light';
+    variant?: ButtonVariant;
 
     /**
      * Change the underlying component CSS base class name and modifier class names prefix. This is an escape hatch for working with heavily customized bootstrap css

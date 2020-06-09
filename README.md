@@ -1,4 +1,4 @@
-# Ameelio.org
+# AmeelioUI
 
 [![Build and Deploy](https://github.com/AmeelioDev/AmeelioUI/workflows/Build%20and%20Deploy/badge.svg)](https://github.com/AmeelioDev/AmeelioUI/actions?query=workflow%3A%22Build+and+Deploy%22)
 

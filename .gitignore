@@ -12,7 +12,7 @@
 /build
 
 # styleguide artifacts
-/styleguide
+/build/docs
 
 # misc
 .DS_Store

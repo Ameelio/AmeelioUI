@@ -1,44 +1,100 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Ameelio.org
 
-## Available Scripts
+[![Build and Deploy](https://github.com/AmeelioDev/AmeelioUI/workflows/Build%20and%20Deploy/badge.svg)](https://github.com/AmeelioDev/AmeelioUI/actions?query=workflow%3A%22Build+and+Deploy%22)
 
-In the project directory, you can run:
+The UI component framework for Ameelio: a non-profit technology company committed to transforming prison communications.
 
-### `npm start`
+## Using AmeelioUI
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+You can consume this component library in your own project. 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Installing
 
-### `npm test`
+Install AmeelioUI as a dependency
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+npm install --save ameelioui
+```
 
-### `npm run build`
+### Components
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Documentation for all components can be viewed in the [hosted style guide](https://ameeliodev.github.io/AmeelioUI/).
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Individual components can be imported individualy. For example:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```js
+import Button from 'ameelioui/dist/components/Button';
+```
 
-### `npm run eject`
+You can then use this `Button` component:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+<Button variant="secondary">Click me</Button>
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Development
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Prerequisites
 
-## Learn More
+* Install [Node.js](https://nodejs.org/en/)
+* Install [npm](https://www.npmjs.com/get-npm)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Installing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Install Project Dependencies
+
+To install dependencies run
+
+```
+npm install
+```
+
+#### Starting the Project
+
+To start the local development server run
+
+```
+npm start
+```
+
+This runs the interactive component style guide.<br />
+Open [http://localhost:6060/](http://localhost:6060/) to view it in the browser.
+
+## Running the tests
+
+### Run unit tests
+
+```
+npm test
+```
+
+## Deployment
+
+To generate a production build run
+
+```
+npm run build
+```
+
+Builds the style guide assets for deployment to the `build/docs` folder. Merges to master are automatically deployed to GitHub Pages.
+
+## Built With
+
+* [React](https://reactjs.org/) - The web framework used
+* [Create React App](https://create-react-app.dev/) - Project bootstrapping
+* [React Styleguidist](https://react-styleguidist.js.org/) - Interactive style guide
+* [React-Bootstrap](https://react-bootstrap.github.io/) - Base component library
+
+## Contributing
+
+Please read [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for details on our code of conduct, and [CONTRIBUTING.md](CONTRIBUTING.md) for the process for submitting pull requests to us.
+
+## Authors
+
+See the list of [contributors](https://github.com/AmeelioDev/letters/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details

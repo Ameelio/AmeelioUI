@@ -11,6 +11,9 @@
 # production
 /build
 
+# styleguide artifacts
+/styleguide
+
 # misc
 .DS_Store
 .env.local

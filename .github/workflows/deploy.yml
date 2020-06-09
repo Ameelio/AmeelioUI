@@ -27,6 +27,6 @@ jobs:
         with:
           BASE_BRANCH: master
           BRANCH: gh-pages
-          FOLDER: build
+          FOLDER: styleguide
           CLEAN: true
           SSH: true

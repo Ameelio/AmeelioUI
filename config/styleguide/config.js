@@ -1,7 +1,7 @@
 const path = require('path');
 const docgenParser = require('react-docgen-typescript');
-const pkg = require('./package.json');
-const root = path.resolve(__dirname, '.')
+const pkg = require('../../package.json');
+const root = path.resolve(__dirname, '../../')
 
 module.exports = {
   title: `${pkg.productName}`,

@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> with additional className matches its snapshot 1`] = `
+<Button
+  active={false}
+  className="TEST_CLASSNAME"
+  disabled={false}
+  type="button"
+  variant="primary"
+>
+  Click Me
+</Button>
+`;
+
+exports[`<Button /> with block style matches its snapshot 1`] = `
+<Button
+  active={false}
+  block={true}
+  disabled={false}
+  type="button"
+  variant="primary"
+>
+  Click Me
+</Button>
+`;
+
+exports[`<Button /> with custom base class prefix matches its snapshot 1`] = `
+<Button
+  active={false}
+  bsPrefix="ameelio-btn"
+  disabled={false}
+  type="button"
+  variant="primary"
+>
+  Click Me
+</Button>
+`;
+
+exports[`<Button /> with default options matches its snapshot 1`] = `
+<Button
+  active={false}
+  disabled={false}
+  type="button"
+  variant="primary"
+>
+  Click Me
+</Button>
+`;
+
+exports[`<Button /> with disabled state matches its snapshot 1`] = `
+<Button
+  active={false}
+  disabled={true}
+  type="button"
+  variant="primary"
+>
+  Click Me
+</Button>
+`;
+
+exports[`<Button /> with large size matches its snapshot 1`] = `
+<Button
+  active={false}
+  disabled={false}
+  size="lg"
+  type="button"
+  variant="primary"
+>
+  Click Me
+</Button>
+`;
+
+exports[`<Button /> with link matches its snapshot 1`] = `
+<Button
+  active={false}
+  disabled={false}
+  href="ameelio.org"
+  type="button"
+  variant="primary"
+>
+  Click Me
+</Button>
+`;
+
+exports[`<Button /> with link matches its snapshot 2`] = `
+<Button
+  active={false}
+  disabled={false}
+  href="ameelio.org"
+  type="button"
+  variant="primary"
+>
+  Click Me
+</Button>
+`;
+
+exports[`<Button /> with outline warning variant matches its snapshot 1`] = `
+<Button
+  active={false}
+  disabled={false}
+  type="button"
+  variant="outline-warning"
+>
+  Click Me
+</Button>
+`;
+
+exports[`<Button /> with reset type matches its snapshot 1`] = `
+<Button
+  active={false}
+  disabled={false}
+  type="reset"
+  variant="primary"
+>
+  Click Me
+</Button>
+`;
+
+exports[`<Button /> with secondary variant matches its snapshot 1`] = `
+<Button
+  active={false}
+  disabled={false}
+  type="button"
+  variant="secondary"
+>
+  Click Me
+</Button>
+`;
+
+exports[`<Button /> with small size matches its snapshot 1`] = `
+<Button
+  active={false}
+  disabled={false}
+  size="sm"
+  type="button"
+  variant="primary"
+>
+  Click Me
+</Button>
+`;
+
+exports[`<Button /> with submit type matches its snapshot 1`] = `
+<Button
+  active={false}
+  disabled={false}
+  type="submit"
+  variant="primary"
+>
+  Click Me
+</Button>
+`;
+
+exports[`<Button /> with submit type matches its snapshot 2`] = `
+<Button
+  active={false}
+  disabled={false}
+  type="submit"
+  variant="primary"
+>
+  Click Me
+</Button>
+`;

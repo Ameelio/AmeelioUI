@@ -22,7 +22,8 @@
   "scripts": {
     "start": "npx styleguidist server --config config/styleguide/config.js",
     "build": "npx styleguidist build --config config/styleguide/config.js",
-    "test": "react-scripts test --coverage --watchAll=false",
+    "test": "react-scripts test",
+    "test:coverage": "react-scripts test --coverage --watchAll=false",
     "eject": "react-scripts eject"
   },
   "jest": {

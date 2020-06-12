@@ -1,0 +1,1 @@
+export type RowSpec = number | { cols: number }

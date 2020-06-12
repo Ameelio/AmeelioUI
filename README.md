@@ -13,9 +13,13 @@ You can consume this component library in your own project.
 
 Install AmeelioUI as a dependency
 
-```
+```sh
 npm install --save ameelioui
 ```
+
+### Base CSS
+
+In your app, import `ameelioui/dist/css/custom.css`.
 
 ### Components
 
@@ -29,7 +33,7 @@ import Button from 'ameelioui/dist/components/Button';
 
 You can then use this `Button` component:
 
-```
+```js
 <Button variant="secondary">Click me</Button>
 ```
 
@@ -48,7 +52,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 To install dependencies run
 
-```
+```sh
 npm install
 ```
 
@@ -56,7 +60,7 @@ npm install
 
 To start the local development server run
 
-```
+```sh
 npm start
 ```
 
@@ -67,19 +71,43 @@ Open [http://localhost:6060/](http://localhost:6060/) to view it in the browser.
 
 ### Run unit tests
 
-```
+```sh
 npm test
 ```
 
 ## Deployment
 
-To generate a production build run
+To generate a production style guide build run
 
-```
+```sh
 npm run build
 ```
 
 Builds the style guide assets for deployment to the `build/docs` folder. Merges to master are automatically deployed to GitHub Pages.
+
+## Releasing a new version
+
+To release a new version of AmeelioUI, do the following to create a release branch. Replace version_type with `major`, `minor`
+or `patch` as appropriate, based on [SemVer](https://semver.org):-
+
+```sh
+git checkout -b awesome-release-branch
+npm version version_type -m "Release version %s"
+git push
+git push --tags
+```
+
+This will add a commit that updates `package.json` and `package-lock.json` with the updated version number.
+
+Once this branch's PR is merged to master, do the following to publish the release so it can be consumed from npm:-
+
+```sh
+# requires an npm user with permissions to release
+git checkout master
+git pull
+npm install
+npm publish
+```
 
 ## Built With
 

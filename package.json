@@ -2,21 +2,29 @@
   "name": "ameelioui",
   "productName": "AmeelioUI",
   "description": "Reusuable UI component library for Ameelio",
-  "version": "0.1.0",
+  "version": "0.1.33",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/AmeelioDev/AmeelioUI.git"
   },
   "scripts": {
+    "clean": "rimraf dist",
+    "build:sass": "node-sass --importer=node_modules/node-sass-tilde-importer \"src/scss/\" -o \"dist/css\"",
+    "build:autoprefixer:sass": "postcss \"dist/css/*.css\" --use autoprefixer -d \"dist/css\"",
+    "build:autoprefixer:css": "postcss \"src/components/**/*.css\" --use autoprefixer -d \"dist/components\" --base \"src/components\"",
+    "build:ts": "tsc --project tsconfig.json",
+    "build": " npm-run-all -s clean build:**",
     "start": "npx styleguidist server --config config/styleguide/config.js",
-    "build": "npx styleguidist build --config config/styleguide/config.js",
+    "docs:build": "npx styleguidist build --config config/styleguide/config.js",
     "test": "react-scripts test",
     "test:coverage": "react-scripts test --coverage --watchAll=false",
     "eject": "react-scripts eject"
   },
   "jest": {
-    "snapshotSerializers": ["enzyme-to-json/serializer"]
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -33,19 +41,30 @@
       "last 1 safari version"
     ]
   },
+  "dependencies": {
+    "react-bootstrap": "^1.0.1"
+  },
   "devDependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "@types/enzyme": "^3.10.5",
+    "@types/enzyme-adapter-react-16": "^1.0.6",
     "@types/jest": "^24.9.1",
     "@types/node": "^12.12.44",
     "@types/react": "^16.9.35",
     "@types/react-dom": "^16.9.8",
+    "autoprefixer": "^9.8.0",
+    "babel-cli": "^6.26.0",
     "bootstrap": "^4.5.0",
+    "cross-env": "^7.0.2",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "enzyme-to-json": "^3.5.0",
     "node-sass": "^4.14.1",
+    "node-sass-tilde-importer": "^1.0.2",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^7.1.1",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
     "react-docgen-typescript": "^1.16.6",
@@ -53,6 +72,11 @@
     "react-scripts": "3.4.1",
     "react-styleguidist": "^11.0.8",
     "react-test-renderer": "^16.13.1",
+    "typescript": "^3.7.5"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "typescript": "^3.7.5"
   }
 }

@@ -3,7 +3,7 @@ import BootstrapButton, { ButtonProps as BootstrapButtonProps } from 'react-boot
 import { ElementType } from 'react';
 import { ButtonSize, ButtonType, ButtonVariant } from './types';
 
-import './Button.scss';
+import './Button.css';
 
 export { ButtonSize, ButtonType, ButtonVariant }
 
@@ -66,7 +66,7 @@ export interface ButtonProps extends BootstrapButtonProps {
 
 export default class Button extends Component<ButtonProps> {
     public render() {
-        const className = this.props.className;
+        const className = `y-button ${this.props.className ? this.props.className : ''}`
         return (
             <BootstrapButton {...this.props} className={className}/>
         );

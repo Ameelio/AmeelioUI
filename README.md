@@ -92,7 +92,7 @@ To release a new version of AmeelioUI, do the following to create a release bran
 or `patch` as appropriate, based on [SemVer](https://semver.org):-
 
 ```sh
-git checkout -b awesome-release-branch
+git checkout -b your-release-branch
 npm version version_type -m "Release version %s"
 git push
 git push --tags
@@ -107,6 +107,7 @@ Once this branch's PR is merged to master, do the following to publish the relea
 git checkout master
 git pull
 npm install
+npm run build
 npm publish
 ```
 

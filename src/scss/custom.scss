@@ -1,6 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans");
+
 $theme-colors: (
   "primary": #0073eb,
-  "secondary": #ff8686
+  "secondary": #ffc4c4
 );
+
+$font-family-sans-serif: 'Nunito Sans', sans-serif;
 
 @import '~bootstrap/scss/bootstrap';

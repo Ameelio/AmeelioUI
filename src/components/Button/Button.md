@@ -14,7 +14,7 @@ const { ButtonVariant } = require('.');
   <Button variant={ButtonVariant.INFO}>Info</Button>{' '}
   <Button variant={ButtonVariant.LIGHT}>Light</Button>{' '}
   <Button variant={ButtonVariant.DARK}>Dark</Button>{' '}
-<Button variant={ButtonVariant.LINK}>Link</Button>{' '}
+<Button variant={ButtonVariant.LINK}>Link</Button>
 </>
 ```
 

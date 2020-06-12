@@ -1,0 +1,264 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Row /> with additional className matches its snapshot 1`] = `
+<Container
+  className="y-container "
+  fluid={false}
+>
+  <Row>
+    <Col
+      className="TEST_CLASSNAME"
+    >
+      Some text
+    </Col>
+  </Row>
+</Container>
+`;
+
+exports[`<Row /> with auto column width matches its snapshot 1`] = `
+<Container
+  className="y-container "
+  fluid={true}
+>
+  <Row>
+    <Col
+      lg="2"
+      xs={true}
+    >
+      Some text
+    </Col>
+    <Col
+      md="auto"
+    >
+      Some text
+    </Col>
+    <Col
+      lg="2"
+      xs={true}
+    >
+      Some text
+    </Col>
+  </Row>
+  <Row>
+    <Col>
+      Some text
+    </Col>
+    <Col
+      md="auto"
+    >
+      Some text
+    </Col>
+    <Col
+      lg="2"
+      xs={true}
+    >
+      Some text
+    </Col>
+  </Row>
+</Container>
+`;
+
+exports[`<Row /> with auto width small breakpoint matches its snapshot 1`] = `
+<Container
+  className="y-container "
+  fluid={true}
+>
+  <Row>
+    <Col
+      sm={true}
+    >
+      Some text
+    </Col>
+    <Col
+      sm={true}
+    >
+      Some text
+    </Col>
+    <Col
+      sm={true}
+    >
+      Some text
+    </Col>
+  </Row>
+</Container>
+`;
+
+exports[`<Row /> with breakpoint order keywords matches its snapshot 1`] = `
+<Container
+  className="y-container "
+  fluid={true}
+>
+  <Row>
+    <Col
+      xs={
+        Object {
+          "order": "last",
+        }
+      }
+    >
+      Some text
+    </Col>
+    <Col
+      xs={true}
+    >
+      Some text
+    </Col>
+    <Col
+      xs={
+        Object {
+          "order": "first",
+        }
+      }
+    >
+      Some text
+    </Col>
+  </Row>
+</Container>
+`;
+
+exports[`<Row /> with breakpoint order numbers matches its snapshot 1`] = `
+<Container
+  className="y-container "
+  fluid={true}
+>
+  <Row>
+    <Col
+      xs={true}
+    >
+      Some text
+    </Col>
+    <Col
+      xs={
+        Object {
+          "order": 12,
+        }
+      }
+    >
+      Some text
+    </Col>
+    <Col
+      xs={
+        Object {
+          "order": 1,
+        }
+      }
+    >
+      Some text
+    </Col>
+  </Row>
+</Container>
+`;
+
+exports[`<Row /> with custom base class prefix matches its snapshot 1`] = `
+<Container
+  className="y-container "
+  fluid={false}
+>
+  <Row>
+    <Col
+      bsPrefix="ameelio-container"
+    >
+      Some text
+    </Col>
+  </Row>
+</Container>
+`;
+
+exports[`<Row /> with default options matches its snapshot 1`] = `
+<Container
+  className="y-container "
+  fluid={false}
+>
+  <Row>
+    <Col>
+      Some text
+    </Col>
+  </Row>
+</Container>
+`;
+
+exports[`<Row /> with mixed breakpoints matches its snapshot 1`] = `
+<Container
+  className="y-container "
+  fluid={true}
+>
+  <Row>
+    <Col
+      md={8}
+      xs={12}
+    >
+      Some text
+    </Col>
+    <Col
+      md={4}
+      xs={6}
+    >
+      Some text
+    </Col>
+  </Row>
+</Container>
+`;
+
+exports[`<Row /> with offsets matches its snapshot 1`] = `
+<Container
+  className="y-container "
+  fluid={true}
+>
+  <Row>
+    <Col
+      md={
+        Object {
+          "offset": 3,
+          "span": 3,
+        }
+      }
+    >
+      Some text
+    </Col>
+    <Col
+      md={
+        Object {
+          "offset": 3,
+          "span": 3,
+        }
+      }
+    >
+      Some text
+    </Col>
+  </Row>
+</Container>
+`;
+
+exports[`<Row /> with one column width matches its snapshot 1`] = `
+<Container
+  className="y-container "
+  fluid={true}
+>
+  <Row>
+    <Col>
+      Some text
+    </Col>
+    <Col
+      xs={6}
+    >
+      Some text
+    </Col>
+    <Col>
+      Some text
+    </Col>
+  </Row>
+  <Row>
+    <Col>
+      Some text
+    </Col>
+    <Col
+      xs={5}
+    >
+      Some text
+    </Col>
+    <Col>
+      Some text
+    </Col>
+  </Row>
+</Container>
+`;

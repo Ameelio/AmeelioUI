@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Container /> with additional className matches its snapshot 1`] = `
+<Container
+  className="y-container TEST_CLASSNAME"
+  fluid={false}
+>
+  <Row>
+    <Col>
+      Some text
+    </Col>
+  </Row>
+</Container>
+`;
+
+exports[`<Container /> with custom base class prefix matches its snapshot 1`] = `
+<Container
+  bsPrefix="ameelio-container"
+  className="y-container "
+  fluid={false}
+>
+  <Row>
+    <Col>
+      Some text
+    </Col>
+  </Row>
+</Container>
+`;
+
+exports[`<Container /> with default options matches its snapshot 1`] = `
+<Container
+  className="y-container "
+  fluid={false}
+>
+  <Row>
+    <Col>
+      Some text
+    </Col>
+  </Row>
+</Container>
+`;
+
+exports[`<Container /> with fluid style and breakpoint matches its snapshot 1`] = `
+<Container
+  className="y-container "
+  fluid="md"
+>
+  <Row>
+    <Col>
+      Some text
+    </Col>
+  </Row>
+</Container>
+`;
+
+exports[`<Container /> with fluid style matches its snapshot 1`] = `
+<Container
+  className="y-container "
+  fluid={true}
+>
+  <Row>
+    <Col>
+      Some text
+    </Col>
+  </Row>
+</Container>
+`;

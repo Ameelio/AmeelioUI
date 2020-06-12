@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Row /> with additional className matches its snapshot 1`] = `
+<Container
+  className="y-container "
+  fluid={false}
+>
+  <Row
+    className="TEST_CLASSNAME"
+  >
+    <Col>
+      Some text
+    </Col>
+  </Row>
+</Container>
+`;
+
+exports[`<Row /> with custom base class prefix matches its snapshot 1`] = `
+<Container
+  className="y-container "
+  fluid={false}
+>
+  <Row
+    bsPrefix="ameelio-container"
+  >
+    <Col>
+      Some text
+    </Col>
+  </Row>
+</Container>
+`;
+
+exports[`<Row /> with default options matches its snapshot 1`] = `
+<Container
+  className="y-container "
+  fluid={false}
+>
+  <Row>
+    <Col>
+      Some text
+    </Col>
+  </Row>
+</Container>
+`;
+
+exports[`<Row /> with row breakpoints matches its snapshot 1`] = `
+<Container
+  className="y-container "
+  fluid={true}
+>
+  <Row
+    lg={6}
+    md={4}
+    xs={2}
+  >
+    <Col>
+      Some text
+    </Col>
+    <Col>
+      Some text
+    </Col>
+  </Row>
+</Container>
+`;
+
+exports[`<Row /> with row breakpoints that override column breakpoints matches its snapshot 1`] = `
+<Container
+  className="y-container "
+  fluid={true}
+>
+  <Row
+    md={4}
+  >
+    <Col>
+      Some text
+    </Col>
+    <Col
+      xs={6}
+    >
+      Some text
+    </Col>
+    <Col>
+      Some text
+    </Col>
+  </Row>
+</Container>
+`;

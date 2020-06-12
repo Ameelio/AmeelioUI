@@ -3,7 +3,7 @@
 exports[`<Button /> with additional className matches its snapshot 1`] = `
 <Button
   active={false}
-  className="TEST_CLASSNAME"
+  className="y-button TEST_CLASSNAME"
   disabled={false}
   type="button"
   variant="primary"
@@ -16,6 +16,7 @@ exports[`<Button /> with block style matches its snapshot 1`] = `
 <Button
   active={false}
   block={true}
+  className="y-button "
   disabled={false}
   type="button"
   variant="primary"
@@ -28,6 +29,7 @@ exports[`<Button /> with custom base class prefix matches its snapshot 1`] = `
 <Button
   active={false}
   bsPrefix="ameelio-btn"
+  className="y-button "
   disabled={false}
   type="button"
   variant="primary"
@@ -39,6 +41,7 @@ exports[`<Button /> with custom base class prefix matches its snapshot 1`] = `
 exports[`<Button /> with default options matches its snapshot 1`] = `
 <Button
   active={false}
+  className="y-button "
   disabled={false}
   type="button"
   variant="primary"
@@ -50,6 +53,7 @@ exports[`<Button /> with default options matches its snapshot 1`] = `
 exports[`<Button /> with disabled state matches its snapshot 1`] = `
 <Button
   active={false}
+  className="y-button "
   disabled={true}
   type="button"
   variant="primary"
@@ -61,6 +65,7 @@ exports[`<Button /> with disabled state matches its snapshot 1`] = `
 exports[`<Button /> with large size matches its snapshot 1`] = `
 <Button
   active={false}
+  className="y-button "
   disabled={false}
   size="lg"
   type="button"
@@ -73,6 +78,7 @@ exports[`<Button /> with large size matches its snapshot 1`] = `
 exports[`<Button /> with link matches its snapshot 1`] = `
 <Button
   active={false}
+  className="y-button "
   disabled={false}
   href="ameelio.org"
   type="button"
@@ -85,6 +91,7 @@ exports[`<Button /> with link matches its snapshot 1`] = `
 exports[`<Button /> with link matches its snapshot 2`] = `
 <Button
   active={false}
+  className="y-button "
   disabled={false}
   href="ameelio.org"
   type="button"
@@ -97,6 +104,7 @@ exports[`<Button /> with link matches its snapshot 2`] = `
 exports[`<Button /> with outline warning variant matches its snapshot 1`] = `
 <Button
   active={false}
+  className="y-button "
   disabled={false}
   type="button"
   variant="outline-warning"
@@ -108,6 +116,7 @@ exports[`<Button /> with outline warning variant matches its snapshot 1`] = `
 exports[`<Button /> with reset type matches its snapshot 1`] = `
 <Button
   active={false}
+  className="y-button "
   disabled={false}
   type="reset"
   variant="primary"
@@ -119,6 +128,7 @@ exports[`<Button /> with reset type matches its snapshot 1`] = `
 exports[`<Button /> with secondary variant matches its snapshot 1`] = `
 <Button
   active={false}
+  className="y-button "
   disabled={false}
   type="button"
   variant="secondary"
@@ -130,6 +140,7 @@ exports[`<Button /> with secondary variant matches its snapshot 1`] = `
 exports[`<Button /> with small size matches its snapshot 1`] = `
 <Button
   active={false}
+  className="y-button "
   disabled={false}
   size="sm"
   type="button"
@@ -142,6 +153,7 @@ exports[`<Button /> with small size matches its snapshot 1`] = `
 exports[`<Button /> with submit type matches its snapshot 1`] = `
 <Button
   active={false}
+  className="y-button "
   disabled={false}
   type="submit"
   variant="primary"
@@ -153,6 +165,7 @@ exports[`<Button /> with submit type matches its snapshot 1`] = `
 exports[`<Button /> with submit type matches its snapshot 2`] = `
 <Button
   active={false}
+  className="y-button "
   disabled={false}
   type="submit"
   variant="primary"

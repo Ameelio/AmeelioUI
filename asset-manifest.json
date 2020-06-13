@@ -3,16 +3,16 @@
     "main.css": "/static/css/main.bb2b0a39.chunk.css",
     "main.js": "/build/main.6c136dd2.js",
     "runtime-main.js": "/build/bundle.b1e58a59.js",
-    "build/2.c7afff9e.js": "/build/2.c7afff9e.js",
-    "build/2.c7afff9e.js.LICENSE.txt": "/build/2.c7afff9e.js.LICENSE.txt",
+    "build/2.5d5ba21f.js": "/build/2.5d5ba21f.js",
+    "build/2.5d5ba21f.js.LICENSE.txt": "/build/2.5d5ba21f.js.LICENSE.txt",
     "index.html": "/index.html",
-    "precache-manifest.33fe5007f68542eef70842e57db9d2f1.js": "/precache-manifest.33fe5007f68542eef70842e57db9d2f1.js",
+    "precache-manifest.1043094c2446d4488143b5e073d725f9.js": "/precache-manifest.1043094c2446d4488143b5e073d725f9.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.bb2b0a39.chunk.css.map": "/static/css/main.bb2b0a39.chunk.css.map"
   },
   "entrypoints": [
     "build/bundle.b1e58a59.js",
-    "build/2.c7afff9e.js",
+    "build/2.5d5ba21f.js",
     "static/css/main.bb2b0a39.chunk.css",
     "build/main.6c136dd2.js"
   ]

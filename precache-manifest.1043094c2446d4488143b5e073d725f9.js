@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c7afff9ed0a57c3719c3",
-    "url": "build/2.c7afff9e.js"
+    "revision": "5d5ba21f832f18167b01",
+    "url": "build/2.5d5ba21f.js"
   },
   {
-    "revision": "12bdfb49e43c7604e2a1e16ffa3afff3",
-    "url": "build/2.c7afff9e.js.LICENSE.txt"
+    "revision": "677491d1172579d9a5f8b24a8f41e22c",
+    "url": "build/2.5d5ba21f.js.LICENSE.txt"
   },
   {
     "revision": "b1e58a59d22b66b0cfe9",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "build/main.6c136dd2.js"
   },
   {
-    "revision": "ea0003472a368fd05269a2a055c2c1e3",
+    "revision": "877aa3351d70d7311cb580de9f831c3a",
     "url": "index.html"
   },
   {
